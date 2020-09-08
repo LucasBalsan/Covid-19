@@ -1,0 +1,458 @@
+body {
+	background-color:rgb(255, 255, 255);
+    font-size:15px;
+    text-align: center;
+	--default-blue-stroke: #6cc4d9;
+	--default-grey-black-fill: #337fa5;
+	--default-strok: rgb(141, 141, 141);
+}
+main{
+margin: 0 auto;
+}
+
+h1{
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color: #337fa5;
+}
+
+h2{
+    font-size: 35px;
+    margin: 50px 0px 10px 540px;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: left; 
+	color: #337fa5;
+}
+
+p{
+    position: relative;
+    font-family: 'Exo', sans-serif;
+}
+
+hr{
+    margin-top: 30px;
+    border-radius: 2px;
+    color: rgb(43, 43, 43);
+    border: 1px solid currentColor;
+    width: 80%;
+    margin-bottom: 100px ;
+}
+
+.input1{
+	font-size: 35px;
+	margin: 49px 529px 8px -416px;
+	border: none;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	color: #337fa5;
+    background-color:transparent;
+    pointer-events:none;
+    outline:none;
+}
+
+.itens{
+    font-size: 15px;
+	border: none;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	color: #337fa5;
+    background-color:transparent;
+    font-weight:bold;
+    pointer-events:none;
+    outline:none;
+}
+li{
+    list-style: none;
+}
+
+nav ul,
+nav li {
+	list-style: none;
+	margin:0;
+    padding:0;
+}
+nav ul {
+	display:flex;
+}
+nav a {
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	margin: 8px;
+	padding:8px 24px;
+	text-decoration:none;   
+}
+.container {
+	display:flex;
+	justify-content:space-between;
+	width: 1200px;
+}
+
+.logo{
+	color:#000000;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px;
+	margin-top: -20px;
+	margin-left: -500px;
+}
+
+a{
+    text-decoration: none;
+}
+header {
+	display:flex;
+	justify-content:center;
+	background-position:center;
+    
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.menu {
+	display:flex;
+    align-items:baseline;
+}
+
+.button-atualizar{
+    margin-left: -555px;
+    margin-top: -148px;
+}
+
+a{
+    text-decoration: none;
+}
+.menu {
+	display:flex;
+    align-items:baseline;
+    margin-top: 20px;
+}
+
+/*POP UP CADASTRO*/  
+.cancelbtn {
+    background-color:#d10046;
+	border-radius: 5px;
+    text-indent:0;
+	border:1px solid #eb0b73;
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+    height:40px;
+	line-height:40px;
+    width:130px;
+	text-decoration:none;
+    text-align:center;
+    margin-right: 1rem;
+}.cancelbtn:hover {
+	background-color:#eb0b73;
+}.cancelbtn:active {
+	position:relative;
+	top:1px;
+}
+  
+.cancelbtn:hover {
+    opacity: 0.8;
+   
+  }
+  
+  .input2{
+	font-size: 35px;
+    margin: -28px 72px -12px 71px;
+    border-radius: 8px;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	color: #337fa5;
+	background-color:#e1e1e3
+}
+
+.select1{
+    font-size: 35px;
+    margin: -28px 72px -12px 71px;
+    border-radius: 8px;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	color: #337fa5;
+	background-color:#e1e1e3
+}
+
+.btn{
+    margin-top: 80px;
+}
+h3{
+    font-size: 35px;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	color: #2b2b2b;
+}
+
+  .modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; 
+    border: 1px solid #888;
+    width: 900px; 
+    height: 1080px; 
+	box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+  }
+
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+/*INFO BRASIL/ESTADOS*/
+
+.brasil-item{
+    background-color:#e1e1e3;
+	border-radius: 5px;
+    color:#ffffff;
+    font-family: 'Exo', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	box-shadow:0px 2px 5px rgba(0, 0, 0, 0.2);
+	font-size:15px;
+	font-weight:bold;
+	line-height:40px;
+    width: 200px;
+	text-decoration:none;
+    text-align:center;
+    margin: 5px 10px 15px 30rem;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.brasil-item--total {
+    
+    display: inline-block;
+    color: #000000;
+}
+
+.brasil-item--name {
+    display: inline-block;
+    color: #000000;
+}
+.button {
+    background-color:#337fa5;
+	border-radius: 5px;
+    text-indent:0;
+	border:1px solid #6cc4d9;
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+    height:40px;
+	line-height:40px;
+    width:130px;
+	text-decoration:none;
+    text-align:center;
+    margin-right: 1rem;
+}.button:hover {
+	background-color:#6cc4d9;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+.card {
+	background-color:#e1e1e3;
+	display: block;
+	border-radius:50px;
+	color:#ffffff;
+	box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
+    height:600px;
+    width:900px;
+	text-decoration:none;
+	margin-top: 10px;
+	margin-left: 800px;
+}
+.info{
+	color: #7e7e7e;
+    font-family: 'Exo', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: -602px;
+	margin-left: 391px;
+	margin-bottom: 30px;
+	display: block;
+}
+.info img{
+	height:30px;
+	width:30px;
+}
+
+
+.title2{
+	margin-top: 150px;
+	text-align: center;
+}
+
+/*PROTEJA-SE*/
+.modelss{
+	display: none;
+}
+
+.info-area {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.info-item {
+    text-align: center;
+    max-width:250px;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    margin:0 auto 50px auto;
+}
+.info-item a {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-decoration: none;
+}
+.info-item--img {
+    width:150px;
+    height:150px;
+    background-color:#EEE;
+    border-radius:100px;
+    box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
+}
+.info-item--img img {
+    width:100%;
+    height:auto;
+}
+.info-item--name {
+    font-size:20px;
+    font-weight: bold;
+    color:#000;
+    margin-top:5px;
+}
+.info-item--desc {
+    font-size:13px;
+    color:#555;
+    margin-top:10px;
+}
+
+/*MAPA*/
+svg text{
+	fill: var(--default-strok);
+	font-family: monospace;
+	font-weight: bolder;
+}
+.mapa-svg-estados {
+	fill: #373737;
+	-webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-ms-transition: .8s ease;
+	-o-transition: .8s ease;
+	transition: .8s ease;
+	stroke-dasharray: 180%;
+	stroke-dashoffset: -120%;
+	stroke-width: 2px;
+	stroke: var(--default-strok);
+}
+.mapa-svg-estados text {
+	stroke:none
+}
+
+.mapa-svg-estados:hover {
+	cursor: pointer;
+	fill: var(--default-grey-black-fill);
+
+}
+
+.mapa-svg-estados-active {
+	cursor: pointer;
+	stroke: var(--default-blue-stroke);
+	fill: var(--default-grey-black-fill);
+	stroke-dashoffset: 0%;
+	-webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-ms-transition: .8s ease;
+	-o-transition: .8s ease;
+}
+.mapa-svg-estados-active text{
+	stroke: none;
+}
+
+.pointer-svg-map {
+	fill: var(--default-blue-stroke);
+	animation-direction: normal;
+	animation-delay: .3s;
+}
+
+.inactive-map-svg {
+	opacity: .5;
+	stroke: none !important;
+}
+
+.inactive-map-svg:hover {
+	stroke-dashoffset: -120%;
+	cursor: inherit;
+	fill: var(--default-grey-black-fill);
+}
+
+@keyframes pointer {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+#sotreq-select {
+	display: flex;
+	flex-direction: column;
+}
+
+.class-select {
+	display: none;
+}
